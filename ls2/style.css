@@ -1,0 +1,10 @@
+.nata {
+    border-radius: 50px;
+    border: 0;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 12px 75px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
