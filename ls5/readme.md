@@ -1,9 +1,13 @@
 Git commands
 
+[О Git на Хабр Часть 1]: https://habr.com/ru/post/541258/
+[О Git на Хабр Часть 2]: https://habr.com/ru/post/542616/
+
 ```
 git add . - добавить все изменения по коду в коммит
-git commit -m 'some message' - сохранить добавленые 
-
+git commit -m 'some message' - сохранить добавленые изменения по коду (локально на компьютере)
+git push - отправить свои изменения по коду на github
+git pull - забрать изменения по коду из github
 ```
 
 Linux commands (Linux команды)
