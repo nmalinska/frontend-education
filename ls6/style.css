@@ -1,6 +1,11 @@
 :root {
     --color-green: #48a04d;
+    --color-grey:#86868b;
+    --color-white:#FFF;
+    
     --size-border-radius: 8px;
+ 
+    --text-18: 18px;
 }
 
 h1,
@@ -11,28 +16,28 @@ button {
 }
 
 .title {
-    font-size: 18px;
+    font-size: var(--text-18);
 }
 
 .description {
-    color: #86868b;
+    color: var(--color-grey);
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
-.btn-cancel {
-    border: 0px;
+.btn {
+    border: 0;
     padding: 8px 30px;
     border-radius: var(--size-border-radius);
-    color: #86868b;
+}
+
+.btn-cancel {
+    color: var(--color-grey);
     margin-right: 10px;
 }
 
 .btn-confirm {
-    border: 0px;
-    padding: 8px 30px;
-    border-radius: var(--size-border-radius);
-    color: #FFF;
+    color: var(--color-white);
     background-color: var(--color-green);
 }
