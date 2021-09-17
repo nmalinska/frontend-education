@@ -14,7 +14,8 @@ Linux commands (Linux команды)
 ```
 pwd - show current directory path (показать путь текущей папки)
 cd - open directory (зайти в директорию)
-
+mkdir - создать новую директорию
+touch - создать новый файл
 code . - open vscode from terminal in current dir (открыть vscode в текущей директории)
 ```
 
@@ -22,4 +23,14 @@ code . - open vscode from terminal in current dir (открыть vscode в те
 ```
 cd desktop - зайти в папку desktop
 сd .. - выйти из текущей папки на один уровень
+```
+
+Пример mkdir
+```
+mkdir read - создать новую папку read
+```
+
+Пример touch
+```
+touch index.html style.css - создать два новых файла index.html и style.css
 ```
