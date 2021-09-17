@@ -1,0 +1,38 @@
+:root {
+    --color-green: #48a04d;
+    --size-border-radius: 8px;
+}
+
+h1,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.description {
+    color: #86868b;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-cancel {
+    border: 0px;
+    padding: 8px 30px;
+    border-radius: var(--size-border-radius);
+    color: #86868b;
+    margin-right: 10px;
+}
+
+.btn-confirm {
+    border: 0px;
+    padding: 8px 30px;
+    border-radius: var(--size-border-radius);
+    color: #FFF;
+    background-color: var(--color-green);
+}
