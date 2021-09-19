@@ -1,0 +1,21 @@
+p{
+    color:grey;
+}
+.button-blu {
+    background-color:darkblue;
+    border-radius: 35px;
+    padding: 20px 50px;
+    font-size: 23px;
+    color:white;
+}    
+.button-purple {
+    background-color:purple;
+    border-radius: 35px;
+    padding: 20px 50px;
+    font-size: 23px;
+    color:white;
+    
+
+}
+
+
