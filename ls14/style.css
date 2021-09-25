@@ -1,14 +1,56 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color:grey;
+}
+.card{
+    background-color:white;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+.button-blue {
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.title {
+  color:black;  
+  font-size: 25px;
+}
+
+.description {
+color:grey;
+font-size: 14px;
+margin-bottom: 40px;
+}
+.div-grey {
+    color:grey;
+}
+.div-black{
+    color:black;
+}
 
 
-.button-blu;
-background-color: #darkblue;
-border-radius:35px;
-color: #white;
+/* цвета
+    # испоьзуется только с HEX системой
+    HEX - это цвет корой обозначается в формате 6-и значного кода (например #ffffff)
+*/
 
+/*
+селектор {
+    параметр: значение;
+} 
 
-
-
-
+.название-класса {
+    параметр: значение;
+} 
+*/
 
 
 
