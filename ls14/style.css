@@ -1,22 +1,40 @@
 * {
+    box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 body{
     background-color:grey;
 }
+
 .card{
     background-color:white;
-    width: fit-content;
+    width: 300px;
     border-radius: 10px;
-    padding: 10px;
-    
+    padding: 30px;
+}
 
+.form-input{
+    outline: 0;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-input:focus {
+    border-bottom-color: darkblue;
 }
 
 .button-blue {
     background-color: darkblue;
     color: white;
     border-radius: 5px;
+    box-sizing: dorder-box;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -24,16 +42,22 @@ body{
   font-size: 25px;
 }
 
-.description {
-color:grey;
-font-size: 14px;
-margin-bottom: 40px;
+.text-12 {
+    font-size: 12px;
 }
+
+.description {
+    color:grey;
+    margin-bottom: 40px;
+}
+
 .div-grey {
     color:grey;
 }
+
 .div-black{
     color:black;
+    font-weight: 600;
 }
 
 
