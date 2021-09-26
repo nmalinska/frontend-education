@@ -14,7 +14,7 @@ div {
     font-style: italic;
 }
 
-/* селектор по псевдоклассу*/
+/* селектор по псевдоклассу (:hover - псевдокласс для эффекта наводки курсора)*/
 .btn:hover {
     background-color: blueviolet;
 }
