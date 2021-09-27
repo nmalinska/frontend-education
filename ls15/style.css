@@ -14,6 +14,13 @@
     --size-radius: 8px;
 }
 
+body,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 *{
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
@@ -29,6 +36,9 @@ body{
     width: var(--size);
     border-radius: var(--size-radius);
     padding: 30px;
+    box-shadow: 0  3px 8px var(--color-theme-light);
+
+
 }
 
 .button-theme {
@@ -40,4 +50,30 @@ body{
     background-color: var(--color-theme);
     color: var(--color-text-white);
     width: 100%;
+
+    box-shadow: 0 3px 8px var(--color-theme-light);
+}
+
+.button-theme:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.title{
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-bottom: 20px;
+}
+
+.price{
+    margin-bottom: 20px;
+}
+
+.price-accent{
+    margin-bottom: 20px;
+    font-weight: 500px;
+    font-size:var(--text-25px);
 }
