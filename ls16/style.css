@@ -1,0 +1,15 @@
+:root{
+   --pic-size: 300px;
+}
+
+.pic{
+    width: var(--pic-size);
+}
+
+.pic-div{
+    background-image:url(./task2.png); 
+    width: var(--pic-size);
+    height: var(--pic-size);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
