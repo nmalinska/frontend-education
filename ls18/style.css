@@ -1,0 +1,40 @@
+:root{
+    --color-grey: #4A4A4A;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body,
+h1,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    width: 700px;
+    font-size: 35px;
+    color:black;
+}
+p{
+    font-size: 18px;
+    color:#4A4A4A;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.button-green{
+    border-radius: 200px;
+    background-color:#5Fc965;
+    color:white;
+    border: 0;
+    outline: 0;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-weight: 700;
+}
